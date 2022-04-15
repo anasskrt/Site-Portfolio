@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300;500&display=swap');
+
+body{
+    background-color: #0e1744ba;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px;
+  font-weight: 700;
+  border: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  border: 2px solid white;
+  background-color: #f7657df5;
+  color: white;
+}
+
+ul{
+  background-color: rgb(218, 209, 209);
+  margin-top: 0px;
+}
+
+
+/****************************** début de la page *************************************/
+.Projet{
+  display: flex;
+  flex-direction: row;
+  width: 120vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.Pong, .BD, .Entreprise, .Lowatem, .Site, .Installation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 25vh;
+  background-color: rgb(205 213 229);
+  border-radius: 20%;
+  text-align: center;
+  margin: 40px;
+  text-decoration:none; 
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.2em;
+}
+
+.Pong:hover, .BD:hover, .Entreprise:hover, .Lowatem:hover, .Site:hover, .Installation:hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35vh;
+  width: 35vh;
+  background-color: red;
+  border-radius: 20%;
+  text-align: center;
+  margin: 50px;
+  transition: 1.5s;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Info{
+  background-color: white;
+  margin-bottom: 0px;
+  width: 60vh;
+  height: 90vh;
+}
+
+
+@media all and (max-width:1000px){
+
+  ul{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    height: 4vh;
+    align-items: center;
+  }
+
+  .Pong, .BD, .Entreprise, .Lowatem, .Site, .Installation{
+    height: 20vh;
+    width: 20vh;
+    background-color: rgb(205 213 229);
+    border-radius: 20%;
+    text-align: center;
+    margin: 20px;
+    text-decoration:none; 
+    color: black; 
+    font-size: 1.6em;
+  }
+
+  .Pong:hover, .BD:hover, .Entreprise:hover, .Lowatem:hover, .Site:hover, .Installation:hover{
+    height: 20vh;
+    width: 20vh;
+    background-color: red;
+  }
+
+  .Info{
+    display: none;
+  }
+
+    
+}

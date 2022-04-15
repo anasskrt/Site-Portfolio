@@ -1,0 +1,45 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+    <nav id="menu">
+        <ul >
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="pageprojet.html">Mes projets</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="formulaire">
+        <div class="contactez-moi">
+            <h1>Contactez-moi</h1>
+            <form action="/page-traitement-donnees" method="post">
+                <div>
+                    <label for="nom">Votre nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="écrivez vôtre nom" required>
+                </div>
+                <div>
+                    <label for="prénom">Votre nom</label>
+                    <input type="text" id="prénom" name="prénom" placeholder="écrivez vôtre prénom" required>
+                </div>
+                <div>
+                    <label for="email">Votre e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                </div>
+                <div>
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer mon message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
